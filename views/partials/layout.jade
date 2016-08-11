@@ -6,17 +6,14 @@ html
         meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
         meta(name="viewport" content="width=device-width, initial-scale=1")
         link(rel="icon", type="image/x-icon", href="../img/favicon.ico")
-        script(src="https://use.typekit.net/bqz3cea.js")
-        script. 
-            try{Typekit.load({ async: true });}catch(e){}
         title UKGovHack
-        link(href='https://fonts.googleapis.com/css?family=Bangers', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Nunito', rel='stylesheet', type='text/css')
         != css()
 
     body
         header
             ul
-                li: a.brand(href="/"): b UKGovHack 2016
+                li: a.brand(href="/") BrumHack
                 li: a(href="/") Home
                 li: a(href="/hackathon") Hackathon
                 li: a(href="/conference") Conference
@@ -32,7 +29,7 @@ html
             .wrapper.outer
                 .flex
                     a.logo(href="http://rebellabs.co.uk")
-                        img(src="img/labs-white.svg" alt="Rebel Labs Logo")
+                        img(src="img/labs-white.svg" alt="Rebel Labs Logo")                    
                     ul
                         li: a(href="https://github.com/RebelUncut/ukgovhack.com", target="_blank") Github (we accept PRs)
                         li: a(href="http://rebellabs.co.uk", target="_blank") A Rebel Labs Project

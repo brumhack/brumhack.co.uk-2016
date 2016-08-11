@@ -1,4 +1,4 @@
-$blue: #3F579C;
+$blue: /*#556B2F;*/#306400;/*006400$blue: #3F579C;*/
 $red: #C4494D;
 $grey-dark: #59595B;
 
@@ -11,7 +11,7 @@ $secondary: $red;
 $accent__dark: darken($accent, 15%);
 $secondary__dark: darken($secondary, 15%);
 
-$font-main: "brandon-grotesque", sans-serif;
+$font-main: "Nunito", sans-serif;
 
 $desktop: 960px;
 

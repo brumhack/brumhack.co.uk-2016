@@ -1,4 +1,4 @@
-$header-spacing: 0.75em;
+$header-spacing: 0.70em;
 
 header {
 	background: $accent;
@@ -14,8 +14,17 @@ header {
 		margin-left: $header-spacing / 2;
 		li {
 			display: inline-block;
+                        vertical-align: middle;
+                        .brand {
+                            font-family: 'fifteen';
+                            font-size: 26px;
+                            letter-spacing: 3px;
+                        }
+
 			a {
-				padding: $header-spacing $header-spacing / 2;
+				font-family: 'fifteen';
+                                padding: $header-spacing $header-spacing / 1.75;
+                                font-size: 20px;
 				color: white;
 				display: block;
 			}
