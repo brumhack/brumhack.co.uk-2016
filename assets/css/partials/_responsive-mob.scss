@@ -107,6 +107,16 @@ footer {
 // Schedule
 
 table.schedule {
+
+	&.desktop {
+		display: none;
+	}
+
+	&.mobile {
+		display: table;
+	}
+
+
 	tr {
 		th,
 		td {
@@ -118,9 +128,6 @@ table.schedule {
 			&:first-child {
 				border-right: none;
 			}
-		}
-		th {
-			display: none;
 		}
 		td {
 			&:first-child {
