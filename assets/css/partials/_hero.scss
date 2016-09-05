@@ -11,8 +11,10 @@
 	.box {
 		@include material-box;
 		background: white;
-		padding: 1.5em;
+		border-radius: 2px;
 		margin-bottom: 2em;
+		opacity: .98;
+		padding: 1.5em;
 		* {
 			color: $grey-dark;
 		}
