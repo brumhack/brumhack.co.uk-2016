@@ -612,6 +612,7 @@ header {
       #faq ul li:last-child, #challenges-page ul li:last-child {
         margin-right: 0; }
       #faq ul li h2, #challenges-page ul li h2 {
+        font-family: 'Dosis', open-sans;
         color: #11AA11; }
       #faq ul li:first-child, #challenges-page ul li:first-child {
         float: left;
