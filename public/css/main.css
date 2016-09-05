@@ -1079,6 +1079,7 @@ table.schedule {
   #content-page h1.page-title,
   #content-page h2 {
     color: #1D1D1D;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: 2rem; }
   #content-page h2 {
     margin-top: 2rem; }
@@ -1166,6 +1167,7 @@ table.schedule {
   max-width: 68rem;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Dosis', sans-serif;
   padding: 0 3rem; }
   .list.orgs h2::after {
     clear: both;
@@ -1176,6 +1178,7 @@ table.schedule {
   max-width: 68rem;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Dosis', sans-serif;
   padding: 1rem 4rem; }
   .list.orgs h3::after {
     clear: both;
