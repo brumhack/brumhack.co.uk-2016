@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'fifteen';
-  src: url("/fonts/fifteenregular.eot");
-  src: url("/fonts/fifteenregular.eot?#iefix") format("embedded-opentype"), url("/fonts/fifteenregular.woff2") format("woff2"), url("/fonts/fifteenregular.woff") format("woff"), url("/fonts/fifteenregular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
 html {
   box-sizing: border-box; }
 
@@ -422,15 +415,14 @@ img.mfp-img {
   right: 0;
   padding-top: 0; }
 
-/*006400$blue: #3F579C;*/
 * {
-  font-family: "Nunito", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 body {
   margin: 0; }
 
 a {
-  color: #306400;
+  color: #11AA11;
   text-decoration: underline; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -439,16 +431,15 @@ h1, h2, h3, h4, h5, h6 {
 section > h1,
 section > .wrapper > h1 {
   text-align: center;
-  color: #306400;
+  color: #1D1D1D;
   font-size: 2.5rem;
   margin-bottom: 1em; }
 
 header {
-  background: #306400;
+  background: #1D1D1D;
   font-size: 1em; }
   header a {
-    text-decoration: none;
-    text-transform: uppercase; }
+    text-decoration: none; }
   header ul {
     display: inline-block;
     padding-left: 0;
@@ -458,14 +449,20 @@ header {
       display: inline-block;
       vertical-align: middle; }
       header ul li .brand {
-        font-family: 'fifteen';
-        font-size: 26px;
-        letter-spacing: 3px; }
+        color: #00FF00;
+        font-family: 'Dosis', sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        padding: 0.4em; }
+        header ul li .brand span {
+          color: white;
+          font-family: 'Dosis', sans-serif;
+          font-weight: 300; }
       header ul li a {
-        font-family: 'fifteen';
+        font-family: 'Dosis', sans-serif;
         padding: 0.7em 0.4em;
         font-size: 20px;
-        color: white;
+        color: #33EE33;
         display: block; }
       header ul li img {
         height: 0.8rem; }
@@ -492,12 +489,12 @@ header {
   #hero .box {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     background: white;
-    padding: 1.5em;
-    margin-bottom: 2em; }
+    border-radius: 2px;
+    margin-bottom: 2em;
+    opacity: .98;
+    padding: 1.5em; }
     #hero .box * {
       color: #59595B; }
-  #hero h1 {
-    text-transform: uppercase; }
   #hero h2 {
     margin-bottom: 0.25rem; }
   #hero p {
@@ -507,19 +504,19 @@ header {
     margin-bottom: 1rem; }
   #hero a.register {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    background: #C4494D;
+    background: #11CC11;
     padding: 0.5em 1em;
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
     font-weight: bold;
     display: inline-block;
     position: relative;
     font-size: 1.25em;
     margin-right: 1.5em;
-    margin-bottom: 1.5em; }
+    margin-bottom: 1.5em;
+    transition: .4s; }
     #hero a.register:hover {
-      background: #912f32;
+      background: #0b850b;
       cursor: pointer; }
     #hero a.register:active {
       box-shadow: 0 3px 2px rgba(0, 0, 0, 0.16), 0 3px 2px rgba(0, 0, 0, 0.23);
@@ -531,16 +528,15 @@ header {
     font-size: 1.25em;
     margin-bottom: 1.5em;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    background: #306400;
+    background: #1D1D1D;
     padding: 0.5em 1em;
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
     font-weight: bold;
     display: inline-block;
     position: relative; }
     #hero a.video:hover {
-      background: #0b1800;
+      background: black;
       cursor: pointer; }
     #hero a.video:active {
       box-shadow: 0 3px 2px rgba(0, 0, 0, 0.16), 0 3px 2px rgba(0, 0, 0, 0.23);
@@ -569,7 +565,7 @@ header {
   margin-right: 2.35765%;
   width: 100%;
   color: white;
-  background: #306400; }
+  background: #1D1D1D; }
   #about:last-child {
     margin-right: 0; }
   #about .content {
@@ -615,6 +611,8 @@ header {
       color: #59595B; }
       #faq ul li:last-child, #challenges-page ul li:last-child {
         margin-right: 0; }
+      #faq ul li h2, #challenges-page ul li h2 {
+        color: #11AA11; }
       #faq ul li:first-child, #challenges-page ul li:first-child {
         float: left;
         display: block;
@@ -630,7 +628,7 @@ header {
 #challenges-page {
   padding: 3rem; }
   #challenges-page h1.page-title {
-    color: #306400;
+    color: #1D1D1D;
     margin-bottom: 2rem; }
   #challenges-page #challenges > h2 {
     float: left;
@@ -679,25 +677,24 @@ header {
       margin-top: 0; }
 
 #sign-up-block {
-  background: #306400;
+  background: #1D1D1D;
   padding: 2em; }
   #sign-up-block h2 {
     color: white;
     text-align: center; }
     #sign-up-block h2 a {
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-      background: #C4494D;
+      background: #11CC11;
       padding: 0.5em 1em;
       text-decoration: none;
       color: white;
-      text-transform: uppercase;
       font-weight: bold;
       display: inline-block;
       position: relative;
       font-size: 0.75em;
       margin-left: 1em; }
       #sign-up-block h2 a:hover {
-        background: #912f32;
+        background: #0b850b;
         cursor: pointer; }
       #sign-up-block h2 a:active {
         box-shadow: 0 3px 2px rgba(0, 0, 0, 0.16), 0 3px 2px rgba(0, 0, 0, 0.23);
@@ -771,7 +768,7 @@ header {
     background: black;
     margin-left: 0.5em;
     color: white;
-    font-family: "Nunito", sans-serif; }
+    font-family: "Open Sans", sans-serif; }
     #venue .travel span.c {
       background: #F9CF42;
       color: #59595B; }
@@ -793,7 +790,7 @@ header {
       margin-right: 0; }
 
 #slack {
-  background: #306400;
+  background: #1D1D1D;
   padding: 3rem; }
   #slack * {
     color: white;
@@ -875,7 +872,7 @@ header {
         color: #59595B;
         text-decoration: none; }
         #data ul li a h3 {
-          color: #306400; }
+          color: #1D1D1D; }
       #data ul li p:last-child {
         margin-bottom: 0; }
     #data ul .more li {
@@ -974,7 +971,7 @@ header {
         margin-left: 0; } }
 
 footer {
-  background: #C4494D;
+  background: black;
   padding: 1.5em 0; }
   footer .wrapper.outer {
     max-width: 68rem;
@@ -1063,7 +1060,7 @@ table.schedule {
         border-right: 1px solid #DFDFDF;
         width: 10%; }
     table.schedule tr th.h {
-      color: #306400; }
+      color: #1D1D1D; }
     table.schedule tr th.c {
       color: #C4494D; }
     table.schedule tr td.x {
@@ -1080,12 +1077,12 @@ table.schedule {
     display: table; }
   #content-page h1.page-title,
   #content-page h2 {
-    color: #306400;
+    color: #1D1D1D;
     margin-bottom: 2rem; }
   #content-page h2 {
     margin-top: 2rem; }
   #content-page article strong {
-    color: #306400; }
+    color: #1D1D1D; }
   #content-page ul.types {
     margin-left: 0;
     padding-left: 0; }
@@ -1114,7 +1111,7 @@ table.schedule {
     display: table; }
   #personas h1.page-title,
   #personas h2 {
-    color: #306400;
+    color: #1D1D1D;
     margin-bottom: 2rem; }
   #personas h2 {
     margin-top: 2rem; }
@@ -1132,12 +1129,12 @@ table.schedule {
     display: table; }
   #submit h1.page-title,
   #submit h2 {
-    color: #306400;
+    color: #1D1D1D;
     margin-bottom: 2rem; }
   #submit h2 {
     margin-top: 2rem; }
   #submit article strong {
-    color: #306400; }
+    color: #1D1D1D; }
 
 #credits {
   max-width: 68rem;
@@ -1150,14 +1147,14 @@ table.schedule {
     display: table; }
   #credits h1.page-title,
   #credits h2 {
-    color: #306400;
+    color: #1D1D1D;
     margin-bottom: 2rem; }
   #credits h2 {
     margin-top: 2rem; }
   #credits img {
     height: 5rem; }
   #credits article strong {
-    color: #306400; }
+    color: #1D1D1D; }
   #credits ul {
     padding-left: 0; }
     #credits ul li {
@@ -1170,6 +1167,16 @@ table.schedule {
   margin-right: auto;
   padding: 0 3rem; }
   .list.orgs h2::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.list.orgs h3 {
+  max-width: 68rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 4rem; }
+  .list.orgs h3::after {
     clear: both;
     content: "";
     display: table; }
@@ -1201,7 +1208,11 @@ table.schedule {
     .list.orgs li .left:last-child {
       margin-right: 0; }
     .list.orgs li .left img {
+      max-height: 96px;
       width: 100%; }
+    .list.orgs li .left.rebel img {
+      max-height: 126px;
+      width: 76%; }
   .list.orgs li .right {
     float: left;
     display: block;
@@ -1211,34 +1222,25 @@ table.schedule {
     .list.orgs li .right:last-child {
       margin-right: 0; }
     .list.orgs li .right p {
+      font-size: 16px;
       margin-bottom: 0;
       margin-top: 0; }
+      .list.orgs li .right p > span {
+        text-decoration: underline; }
 
 .list.orgs.partners ul {
   margin-bottom: 3rem; }
 
-.list.orgs .parli {
-  background: #1F5592;
-  color: white; }
-  .list.orgs .parli a {
-    color: white; }
+.list.orgs .uob {
+  background: white;
+  color: #59595B; }
+  .list.orgs .uob a {
+    color: #59595B; }
 
-.list.orgs .nao {
+.list.orgs .bloomberg {
   background: #373737;
   color: white; }
-  .list.orgs .nao a {
-    color: white; }
-
-.list.orgs .futuregov {
-  background: #e4297e;
-  color: white; }
-  .list.orgs .futuregov a {
-    color: white; }
-
-.list.orgs .github {
-  background: #333;
-  color: white; }
-  .list.orgs .github a {
+  .list.orgs .bloomberg a {
     color: white; }
 
 .list.orgs .twilio {
@@ -1247,34 +1249,28 @@ table.schedule {
   .list.orgs .twilio a {
     color: white; }
 
-.list.orgs .qinetiq {
-  background: #3E97D4;
+.list.orgs .pusher {
+  background: #37A5BC;
   color: white; }
-  .list.orgs .qinetiq a {
+  .list.orgs .pusher a {
     color: white; }
 
-.list.orgs .ukgovcamp {
-  background: white;
-  color: #59595B; }
-  .list.orgs .ukgovcamp a {
-    color: #59595B; }
-
-.list.orgs .dxw {
-  background: #4BA4D9;
+.list.orgs .packt {
+  background: #E2670F;
   color: white; }
-  .list.orgs .dxw a {
+  .list.orgs .packt a {
     color: white; }
 
-.list.orgs .odi {
-  background: black;
+.list.orgs .mobilefun {
+  background: #CCDC00;
   color: white; }
-  .list.orgs .odi a {
+  .list.orgs .mobilefun a {
     color: white; }
 
-.list.orgs .sendgrid {
-  background: #3A87DC;
+.list.orgs .rebel {
+  background: #E81F63;
   color: white; }
-  .list.orgs .sendgrid a {
+  .list.orgs .rebel a {
     color: white; }
 
 .interested {
@@ -1298,17 +1294,16 @@ table.schedule {
   margin-top: 1em; }
   #content-page .btn-group a {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    background: #C4494D;
+    background: #11CC11;
     padding: 0.5em 1em;
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
     font-weight: bold;
     display: inline-block;
     position: relative;
     margin-right: 1.25em; }
     #content-page .btn-group a:hover {
-      background: #912f32;
+      background: #0b850b;
       cursor: pointer; }
     #content-page .btn-group a:active {
       box-shadow: 0 3px 2px rgba(0, 0, 0, 0.16), 0 3px 2px rgba(0, 0, 0, 0.23);
@@ -1320,7 +1315,7 @@ table.schedule {
     display: block;
     text-align: center; }
   header ul {
-    background: #306400;
+    background: #1D1D1D;
     width: 100%;
     text-align: center;
     margin: 1em 0;

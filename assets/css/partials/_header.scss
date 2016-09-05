@@ -5,7 +5,6 @@ header {
 	font-size: 1em;
 	a {
 		text-decoration: none;
-		text-transform: uppercase;
 	}
 	ul {
 		display: inline-block;
@@ -16,16 +15,24 @@ header {
 			display: inline-block;
                         vertical-align: middle;
                         .brand {
-                            font-family: 'fifteen';
-                            font-size: 26px;
-                            letter-spacing: 3px;
+							color: $bright-green;
+							font-family: 'Dosis', sans-serif;
+                            font-size: 28px;
+							font-weight: 500;
+							padding: $header-spacing / 1.75;
+
+							span {
+								color: white;
+								font-family: 'Dosis', sans-serif;
+								font-weight: 300;
+							}
                         }
 
 			a {
-				font-family: 'fifteen';
-                                padding: $header-spacing $header-spacing / 1.75;
-                                font-size: 20px;
-				color: white;
+				font-family: 'Dosis', sans-serif;
+				padding: $header-spacing $header-spacing / 1.75;
+				font-size: 20px;
+				color: $green;
 				display: block;
 			}
 			img {

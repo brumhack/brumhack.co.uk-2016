@@ -13,6 +13,11 @@
 			padding: 1.5em;
 			margin-bottom: 1.5em;
 			color :$grey-dark;
+
+			h2 {
+				color: $darker-green;
+			}
+
 			&:first-child {
 				@include span-columns(8 of 12);
 			}

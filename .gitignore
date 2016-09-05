@@ -3,3 +3,4 @@ node_modules
 *.conf
 env
 public/env
+.idea

@@ -11,14 +11,13 @@
 	.box {
 		@include material-box;
 		background: white;
-		padding: 1.5em;
+		border-radius: 2px;
 		margin-bottom: 2em;
+		opacity: .98;
+		padding: 1.5em;
 		* {
 			color: $grey-dark;
 		}
-	}
-	h1 {
-		text-transform: uppercase;
 	}
 	h2 {
 		margin-bottom: 0.25rem;
@@ -35,6 +34,7 @@
 		font-size: 1.25em;
 		margin-right: 1.5em;
 		margin-bottom: 1.5em;
+		transition: .4s;
 	}
 	a.volunteer {
 		color: white;

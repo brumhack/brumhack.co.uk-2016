@@ -1,18 +1,9 @@
-@font-face {
-    font-family: 'fifteen';
-    src: url('/fonts/fifteenregular.eot');
-    src: url('/fonts/fifteenregular.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/fifteenregular.woff2') format('woff2'),
-         url('/fonts/fifteenregular.woff') format('woff'),
-         url('/fonts/fifteenregular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @import "lib/bourbon/bourbon";
 @import "lib/neat/neat";
 @import "lib/magnific";
 
+@import "settings/colors";
 @import "base";
 @import "partials/button";
 
