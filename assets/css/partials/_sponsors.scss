@@ -3,6 +3,10 @@
 		@include outer-container;
 		padding: 0 3rem;
 	}
+	h3 {
+		@include outer-container;
+		padding: 1rem 4rem;
+	}
 	ul {
 		padding-left: 0;
 		margin-left: 0;
@@ -23,7 +27,15 @@
 		.left {
 			@include span-columns(4 of 12);
 			img {
+				max-height: 96px;
 				width: 100%;
+			}
+
+			&.rebel {
+				img {
+					max-height: 126px;
+					width: 76%;
+				}
 			}
 		}
 		.right {
@@ -33,16 +45,9 @@
 				font-size: 16px;
 				margin-bottom: 0;
 				margin-top: 0;
-			}
-		}
-
-		&.gold,
-		&.silver,
-		&.bronze {
-			>p {
-              	color: $background;
-				margin: 0;
-				padding: 20px;
+				> span {
+					text-decoration: underline;
+				}
 			}
 		}
 	}
