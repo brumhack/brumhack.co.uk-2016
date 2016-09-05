@@ -3,22 +3,6 @@ extends partials/layout
 block content
 
 	#content-page
-
-	.list.orgs.partners
-		h2 Partners
-		ul
-			li.uob: a(href="http://www.birmingham.ac.uk/", target="_blank", rel="noopener"): .wrapper
-				.left.match: img(src="img/orgs/uob.png")
-				.right.match
-					p We’d like to thank the University of Birmingham, our home university, for supporting us with our venue.
-			//li.parli: a(href="http://parliament.uk", target="_blank"): .wrapper
-			//	.left.match: img(src="img/orgs/parliament.png")
-			//	.right.match
-			//		p Bloomberg did this and that
-			li.bloomberg: a(href="http://www.bloomberg.com/", target="_blank" rel="noopener"): .wrapper
-				.left.match: img(src="img/orgs/bloomberg.png")
-				.right.match
-					p Bloomberg delivers business and markets news, data, analysis, and video to the world. They have been a long standing supporter of the MLH seasons, and we’re happy to welcome them to BrumHack once again.
 	.list.orgs.sponsors
 		h2 Sponsors
 		h3 Silver Sponsors
@@ -43,6 +27,18 @@ block content
 				.left.match: img(src="img/orgs/mobilefun.png")
 				.right.match
 					p Mobile Fun are a retailer of a huge range of mobile phone and tablet accessories, gadgets and handsets. Based in Birmingham, and a previous BrumHack supporter, we’re glad to have them join us once again.
+
+	.list.orgs.partners
+		h2 Partners
+		ul
+			li.uob: a(href="http://www.birmingham.ac.uk/", target="_blank", rel="noopener"): .wrapper
+				.left.match: img(src="img/orgs/uob.png")
+				.right.match
+					p We’d like to thank the University of Birmingham, our home university, for supporting us with our venue.
+			li.bloomberg: a(href="http://www.bloomberg.com/", target="_blank" rel="noopener"): .wrapper
+				.left.match: img(src="img/orgs/bloomberg.png")
+				.right.match
+					p Bloomberg delivers business and markets news, data, analysis, and video to the world. They have been a long standing supporter of the MLH seasons, and we’re happy to welcome them to BrumHack once again.
 
 	.interested
 		a(href="mailto:hello@brumhack.co.uk") Interested in getting involved? Click here to send us an email.
