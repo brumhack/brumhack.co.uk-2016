@@ -67,7 +67,7 @@
 		}
 	}
 	@include org(uob, white, $grey-dark);
-	@include org(bloomberg, #373737, white);
+	@include org(bloomberg, black, white);
 	@include org(twilio, #e12127, white);
 	@include org(pusher, #37A5BC, white);
 	@include org(packt, #E2670F, white);
