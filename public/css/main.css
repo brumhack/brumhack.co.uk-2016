@@ -1243,6 +1243,12 @@ table.schedule {
   .list.orgs .uob a {
     color: #59595B; }
 
+.list.orgs .capgemini {
+  background: #0094C0;
+  color: white; }
+  .list.orgs .capgemini a {
+    color: white; }
+
 .list.orgs .bloomberg {
   background: black;
   color: white; }
