@@ -2,11 +2,13 @@
 	h2 {
 		@include outer-container;
 		font-family: 'Dosis', sans-serif;
+		font-size: 2em;
 		padding: 0 3rem;
 	}
 	h3 {
 		@include outer-container;
 		font-family: 'Dosis', sans-serif;
+		font-size: 1.6em;
 		padding: 1rem 4rem;
 	}
 	ul {
@@ -67,6 +69,7 @@
 		}
 	}
 	@include org(uob, white, $grey-dark);
+	@include org(capgemini, #0094C0, white);
 	@include org(bloomberg, black, white);
 	@include org(twilio, #e12127, white);
 	@include org(pusher, #37A5BC, white);

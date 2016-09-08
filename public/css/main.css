@@ -1170,6 +1170,7 @@ table.schedule {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Dosis', sans-serif;
+  font-size: 2em;
   padding: 0 3rem; }
   .list.orgs h2::after {
     clear: both;
@@ -1181,6 +1182,7 @@ table.schedule {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Dosis', sans-serif;
+  font-size: 1.6em;
   padding: 1rem 4rem; }
   .list.orgs h3::after {
     clear: both;
