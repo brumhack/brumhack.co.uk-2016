@@ -1183,7 +1183,7 @@ table.schedule {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Dosis', sans-serif;
-  font-size: 2.4em;
+  font-size: 2em;
   max-width: inherit;
   padding: 1rem 4rem;
   text-align: center;
@@ -1193,7 +1193,8 @@ table.schedule {
     content: "";
     display: table; }
   .list.orgs h3.gold {
-    background-color: #FFD700; }
+    background-color: #FFD700;
+    margin-top: 1em; }
   .list.orgs h3.silver {
     background-color: #C0C0C0; }
   .list.orgs h3.bronze {
