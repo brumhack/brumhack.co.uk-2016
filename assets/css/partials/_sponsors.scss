@@ -3,18 +3,46 @@
 		@include outer-container;
 		font-family: 'Dosis', sans-serif;
 		font-size: 2em;
+		margin-bottom: 0.5em;
 		padding: 0 3rem;
 	}
 	h3 {
 		@include outer-container;
 		font-family: 'Dosis', sans-serif;
-		font-size: 1.6em;
+		font-size: 2.4em;
+		max-width: inherit;
 		padding: 1rem 4rem;
+		text-align: center;
+		width: 100%;
+
+		&.gold {
+			background-color: #FFD700;
+		}
+
+		&.silver {
+			background-color: #C0C0C0;
+		}
+
+		&.bronze {
+			background-color: #CD7F32;
+		}
+
+		&.partners {
+			color: black;
+			margin-top: 1em;
+		}
 	}
 	ul {
 		padding-left: 0;
 		margin-left: 0;
 	}
+
+	&.partners {
+		ul {
+			margin-top: 0;
+		}
+	}
+
 	li {
 		list-style: none;
 		a {
@@ -68,14 +96,16 @@
 			}
 		}
 	}
-	@include org(uob, white, $grey-dark);
+
+	@include org(uob, white, black);
 	@include org(capgemini, #0094C0, white);
-	@include org(bloomberg, black, white);
+	@include org(bloomberg, white, black);
 	@include org(twilio, #e12127, white);
 	@include org(pusher, #37A5BC, white);
 	@include org(packt, #E2670F, white);
 	@include org(mobilefun, #CCDC00, white);
 	@include org(rebel, #E81F63, white);
+	@include org(travel-cloud, #9E1F63, white)
 }
 
 .interested {

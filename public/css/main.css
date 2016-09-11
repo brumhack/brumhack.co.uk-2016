@@ -1073,7 +1073,7 @@ table.schedule {
   max-width: 68rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 3rem; }
+  padding: 2rem; }
   #content-page::after {
     clear: both;
     content: "";
@@ -1171,6 +1171,7 @@ table.schedule {
   margin-right: auto;
   font-family: 'Dosis', sans-serif;
   font-size: 2em;
+  margin-bottom: 0.5em;
   padding: 0 3rem; }
   .list.orgs h2::after {
     clear: both;
@@ -1182,16 +1183,31 @@ table.schedule {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.6em;
-  padding: 1rem 4rem; }
+  font-size: 2.4em;
+  max-width: inherit;
+  padding: 1rem 4rem;
+  text-align: center;
+  width: 100%; }
   .list.orgs h3::after {
     clear: both;
     content: "";
     display: table; }
+  .list.orgs h3.gold {
+    background-color: #FFD700; }
+  .list.orgs h3.silver {
+    background-color: #C0C0C0; }
+  .list.orgs h3.bronze {
+    background-color: #CD7F32; }
+  .list.orgs h3.partners {
+    color: black;
+    margin-top: 1em; }
 
 .list.orgs ul {
   padding-left: 0;
   margin-left: 0; }
+
+.list.orgs.partners ul {
+  margin-top: 0; }
 
 .list.orgs li {
   list-style: none; }
@@ -1241,9 +1257,9 @@ table.schedule {
 
 .list.orgs .uob {
   background: white;
-  color: #59595B; }
+  color: black; }
   .list.orgs .uob a {
-    color: #59595B; }
+    color: black; }
 
 .list.orgs .capgemini {
   background: #0094C0;
@@ -1252,10 +1268,10 @@ table.schedule {
     color: white; }
 
 .list.orgs .bloomberg {
-  background: black;
-  color: white; }
+  background: white;
+  color: black; }
   .list.orgs .bloomberg a {
-    color: white; }
+    color: black; }
 
 .list.orgs .twilio {
   background: #e12127;
@@ -1285,6 +1301,12 @@ table.schedule {
   background: #E81F63;
   color: white; }
   .list.orgs .rebel a {
+    color: white; }
+
+.list.orgs .travel-cloud {
+  background: #9E1F63;
+  color: white; }
+  .list.orgs .travel-cloud a {
     color: white; }
 
 .interested {
