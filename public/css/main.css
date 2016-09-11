@@ -1194,7 +1194,7 @@ table.schedule {
     display: table; }
   .list.orgs h3.gold {
     background-color: #FFD700;
-    margin-top: 1em; }
+    margin-top: .5em; }
   .list.orgs h3.silver {
     background-color: #C0C0C0; }
   .list.orgs h3.bronze {
