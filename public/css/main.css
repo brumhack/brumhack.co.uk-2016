@@ -1204,7 +1204,8 @@ table.schedule {
 
 .list.orgs ul {
   padding-left: 0;
-  margin-left: 0; }
+  margin: 0;
+  margin-bottom: 1em; }
 
 .list.orgs.partners ul {
   margin-top: 0; }
