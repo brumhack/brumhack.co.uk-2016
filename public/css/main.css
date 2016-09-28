@@ -1199,14 +1199,15 @@ table.schedule {
     background-color: #C0C0C0; }
   .list.orgs h3.bronze {
     background-color: #CD7F32; }
-  .list.orgs h3.partners {
+  .list.orgs h3.digital {
     color: black;
     margin-top: 1em; }
+  .list.orgs h3.partners {
+    color: black; }
 
 .list.orgs ul {
   padding-left: 0;
-  margin: 0;
-  margin-bottom: 1em; }
+  margin: 0 0 1em; }
 
 .list.orgs.partners ul {
   margin-top: 0; }
@@ -1253,9 +1254,6 @@ table.schedule {
       margin-top: 0; }
       .list.orgs li .right p > span {
         text-decoration: underline; }
-
-.list.orgs.partners ul {
-  margin-bottom: 3rem; }
 
 .list.orgs .uob {
   background: white;
@@ -1310,6 +1308,12 @@ table.schedule {
   color: white; }
   .list.orgs .travel-cloud a {
     color: white; }
+
+.list.orgs .schroders {
+  background: white;
+  color: black; }
+  .list.orgs .schroders a {
+    color: black; }
 
 .interested {
   max-width: 68rem;

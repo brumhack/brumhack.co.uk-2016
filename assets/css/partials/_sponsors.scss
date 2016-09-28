@@ -28,15 +28,18 @@
 			background-color: #CD7F32;
 		}
 
-		&.partners {
+		&.digital {
 			color: black;
 			margin-top: 1em;
+		}
+
+		&.partners {
+			color: black;
 		}
 	}
 	ul {
 		padding-left: 0;
-		margin: 0;
-		margin-bottom: 1em;
+		margin: 0 0 1em;
 	}
 
 	&.partners {
@@ -85,9 +88,6 @@
 			}
 		}
 	}
-	&.partners ul {
-		margin-bottom: 3rem;
-	}
 
 	@mixin org($class, $bg-color, $text-color: white) {
 		.#{$class} {
@@ -107,7 +107,8 @@
 	@include org(packt, #E2670F, white);
 	@include org(mobilefun, #77C7C7, white);
 	@include org(rebel, #E81F63, white);
-	@include org(travel-cloud, #9E1F63, white)
+	@include org(travel-cloud, #9E1F63, white);
+	@include org(schroders, white, black);
 }
 
 .interested {
