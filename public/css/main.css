@@ -1297,6 +1297,12 @@ table.schedule {
   .list.orgs .capitalone a {
     color: black; }
 
+.list.orgs .blackrock {
+  background: white;
+  color: black; }
+  .list.orgs .blackrock a {
+    color: black; }
+
 .list.orgs .mobilefun {
   background: #77C7C7;
   color: white; }
